@@ -4,7 +4,6 @@ body {
     padding: 0;
 }
 
-
 .navheader {
     display: flex;
     flex-direction: row;
@@ -36,6 +35,7 @@ body {
 
 .title {
     font-size: 48px;
+    font-weight: 900;
     color: #fff;
 }
 
@@ -105,4 +105,3 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
-
