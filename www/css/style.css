@@ -1,0 +1,68 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.navheader {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+#headernav {
+    display: flex;
+    margin: auto;
+    justify-content: flex-end;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/img/bgHeader.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 22vw;
+}
+
+.title {
+    font-size: 48px;
+    color: #fff;
+}
+
+
+
+.menu li:hover {
+    background-color: #00ade0;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul li {
+    margin-top: 10px;
+    display: inline;
+    padding: 5px 10px;
+   
+}
+
+article {
+    width: 100%;
+    height: 315px;
+    background-color: aqua;
+    margin: 0 10px 10px 0  ;
+}
