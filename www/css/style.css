@@ -7,13 +7,12 @@ body {
 .navheader {
     display: flex;
     flex-direction: row;
-    
     justify-content: flex-end;
     height: 60px;
 }
 
 .logo {
-     margin-top: 10px;
+    margin-top: 10px;
     font-size: 2em;
     margin-left: 20px;
 }
@@ -22,7 +21,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
- }
+}
 
 #header {
     display: flex;
@@ -106,4 +105,63 @@ footer {
     padding: 20px 0;
 }
 
-#con1 {}
+.content {
+    padding: 10px;
+}
+
+.sidebar-right {
+    padding-top: 10px;
+}
+
+.sidebar-right {
+    text-align: center;
+}
+
+.sidebar-right img {
+    max-width: 22vw;
+    margin: 10px;
+}
+
+.title-saidebar {
+    font-size: 24px;
+    margin: 20px;
+}
+
+.logo img {
+    margin: 15px;
+    width: 120px;
+    height: 120px;
+}
+
+.infomatio {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.title-zaklad {
+    border-bottom: 2px solid grey;
+    width: 900px;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.category-zaklad {
+    border-bottom: 1px solid grey;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.other {
+    width: 100%;
+}
+
+.map-google {
+    text-align: center;
+}
+
+.about {
+    text-align: justify;
+}
