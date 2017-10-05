@@ -17,6 +17,18 @@ body {
     margin-left: 20px;
 }
 
+.logo a,
+article a,
+.logo a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 #headernav {
     display: flex;
     flex-direction: row;
@@ -73,7 +85,7 @@ article {
 }
 
 article:hover {
-    background-color: #00ade0;
+    background-color: #00a3d3;
     color: #fff;
 }
 
@@ -87,7 +99,7 @@ article:hover {
     padding-top: 5px;
     border-top: 1px solid #c1c1c1;
     background-color: #f6f6f6;
-    color: #000000;
+    color: #000;
 }
 
 article {
@@ -98,15 +110,9 @@ article {
     margin-bottom: 10px;
 }
 
-footer {
-    height: 30px;
-    border-top: 1px solid #c1c1c1;
-    text-align: center;
-    padding: 20px 0;
-}
-
 .content {
     padding: 10px;
+    margin: 0 50px;
 }
 
 .sidebar-right {
@@ -154,14 +160,17 @@ footer {
     font-size: 18px;
 }
 
-.other {
-    width: 100%;
-}
-
 .map-google {
     text-align: center;
 }
 
 .about {
     text-align: justify;
+}
+
+footer {
+    height: 30px;
+    border-top: 1px solid #c1c1c1;
+    text-align: center;
+    padding: 20px 0;
 }
