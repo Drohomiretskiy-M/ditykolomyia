@@ -1,14 +1,12 @@
-$('article').hover(function () {
-        $(this).find('img').css({
-            transform: 'scale(1.02)'
-        });
-    },
-
-    function () {
-        $('img').css({
-            transform: 'scale(1)'
-        });
-    }
-
-
-);
+$("#toggle").click(function() {
+  $(this).toggleClass("on");
+  $("#menu").slideToggle();
+});
+$(window).resize(function() {
+  if ($(window).width() >= '769'){
+    $("nav #menu").show();
+   };
+   if ($(window).width() <= '768' && !$("#toggle").hasClass("on")){
+    $("nav #menu").hide();
+   };
+ });
