@@ -1,3 +1,4 @@
+
 $("#toggle").click(function () {
     $(this).toggleClass("on");
     $("#menu").slideToggle();
@@ -12,12 +13,5 @@ $(window).resize(function () {
 });
 
 $(document).ready(function () {
-    $("a.gal").fancybox({
-        'transitionIn': 'none',
-        'transitionOut': 'none',
-        'titlePosition': 'over',
-        'titleFormat': function (title, currentArray, currentIndex, currentOpts) {
-            return '<span id="fancybox-title-over">Фото ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
-        }
-    });
+    $("a.gal").fancybox();
 });

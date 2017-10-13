@@ -131,12 +131,7 @@ header .logo {
 }
 
 
-/*
-.zaklad-img img {
-    width: 150px;
-    height: 150px;
-}
-*/
+
 
 .main-title {
     border-bottom: 2px solid grey;
@@ -154,6 +149,7 @@ header .logo {
 .about {
     text-align: justify;
     padding: 20px;
+    min-height: 600px;
 }
 
 .sprite {
@@ -253,4 +249,14 @@ footer {
 .address {
     color: #000;
     padding-bottom: 5px;
+}
+.img-circle {
+    width: 150px;
+    height: 150px;
+}
+
+.map {
+    text-align: center;
+    margin-bottom: 25px;
+    
 }
