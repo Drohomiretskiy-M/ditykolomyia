@@ -43,6 +43,9 @@
         padding: 5px 5px;
         font-weight: 400;
     }
+    .map   {
+        display: none;
+    }
    
 }
 

@@ -130,9 +130,6 @@ header .logo {
     text-align: center;
 }
 
-
-
-
 .main-title {
     border-bottom: 2px solid grey;
     text-transform: uppercase;
@@ -149,7 +146,6 @@ header .logo {
 .about {
     text-align: justify;
     padding: 20px;
-    min-height: 600px;
 }
 
 .sprite {
@@ -157,37 +153,28 @@ header .logo {
     margin-top: 5px;
     height: 22px;
     width: 23px;
-}
-
-span {
     padding-left: 31px;
     line-height: 25px;
-    font-size: 1.25em;
 }
 
-.home {
-    background-position: -6px 0;
+#home {
+    background-position: -1px 0;
 }
 
-.tel {
-    background-position: 235px 0;
+#tel {
+    background-position: 239px 0;
 }
 
-.time {
-    background-position: 208px 0;
+#time {
+    background-position: 214px 1px;
 }
 
-.year {
-    background-position: 155px 0;
+#year {
+    background-position: 160px 0;
 }
 
-.site {
-    background-position: 183px 0;
-}
-
-span {
-    max-height: 150px;
-    overflow-x: hidden;
+#site {
+    background-position: 188px 0;
 }
 
 .title {
@@ -221,7 +208,6 @@ a {
     text-align: center;
     max-width: 350px;
     margin: 5px auto;
-   
 }
 
 .thumbnail .category {
@@ -231,25 +217,13 @@ a {
     background-color: #f6f6f6;
     color: #000;
     border-radius: 0 0 5px 5px;
-
-}
-
-#fancybox-title {
-    width: 100% !important;
-}
-
-footer {
-    border-top: 1px solid #c1c1c1;
-    text-align: center;
-    padding: 20px 0;
-    margin-bottom: 50px;
-    height: 100px;
 }
 
 .address {
     color: #000;
     padding-bottom: 5px;
 }
+
 .img-circle {
     width: 150px;
     height: 150px;
@@ -258,5 +232,13 @@ footer {
 .map {
     text-align: center;
     margin-bottom: 25px;
-    
 }
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 50px;
+    height: 100px;
+    border-top: 1px solid #c1c1c1;
+}
+
