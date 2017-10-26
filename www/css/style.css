@@ -24,7 +24,7 @@ nav .logo a {
 }
 
 nav #menu ul {
-    padding-left: 10px;
+   
     width: 100%;
 }
 
@@ -33,16 +33,10 @@ nav #menu ul li a {
 }
 
 header {
-    background-image: url(../img/bgHeader.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 22vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+   
 }
 
-header .logo {
+.slogan {
     display: flex;
     justify-content: center;
     color: #fff;
@@ -81,13 +75,12 @@ header .logo {
 }
 
 .tabs {
-    min-width: 320px;
-    max-width: 800px;
+
     padding: 0px;
     margin: 0 auto;
 }
 
-.tabs section {
+.tabs article {
     display: none;
     margin-bottom: 15px;
 }
@@ -240,4 +233,19 @@ footer {
     height: 100px;
     border-top: 1px solid #c1c1c1;
 }
+
+.cover {
+   background-image: url(../img/bgHeader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 32vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
 

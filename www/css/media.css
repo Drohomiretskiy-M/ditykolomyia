@@ -17,7 +17,7 @@
 
 /* Small Devices, Tablets */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
     nav #menu {
         display: none;
         margin: 5px 0 15px 0;
@@ -53,12 +53,17 @@
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 480px) {
-    header .logo {
+   .slogan{
         font-size: 2em;
     }
     .logo a,
     .logo a:hover {
         text-decoration: none;
+    }
+     .tabs>label {
+        font-size: 0.7em;
+        padding: 1px;
+        font-weight: 200;
     }
 
   
@@ -67,7 +72,9 @@
 
 /* Custom, iPhone Retina */
 
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 320px) {
+    
+}
 
 
 /* Medium Devices, Desktops */
