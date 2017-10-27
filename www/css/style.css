@@ -1,3 +1,5 @@
+/*Стилі для меню в шапці*/
+
 nav .logo a {
     display: flex;
     flex-direction: row;
@@ -6,30 +8,11 @@ nav .logo a {
     font-size: 1.75em;
     font-weight: 900;
     color: #448bb5;
+    justify-content: flex-start;
 }
 
 #menu {
     display: block;
-}
-
-.cover {
-    background-image: url(../img/bgHeader.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 21vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
-.logo a {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
 }
 
 nav #menu ul {
@@ -40,13 +23,7 @@ nav #menu ul li a {
     margin-left: 20px;
 }
 
-.slogan {
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    font-weight: 900;
-    font-size: 3em;
-}
+/*стилі для меню бургер*/
 
 #toggle {
     width: 28px;
@@ -77,6 +54,31 @@ nav #menu ul li a {
 #toggle.on .three {
     transform: rotate(-45deg) translate(7px, -8px);
 }
+
+
+/*Стилі для зображення в хедері*/
+
+.cover {
+    background-image: url(../img/bgHeader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 21vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+}
+.slogan {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+
+/*Стилі для табів з категоріями*/
 
 .tabs {
     padding: 0px;
@@ -120,79 +122,11 @@ nav #menu ul li a {
     display: block;
 }
 
-.zaklad-img {
-    margin: 10px;
-    text-align: center;
-}
-
-.main-title {
-    border-bottom: 2px solid grey;
-    text-transform: uppercase;
-    font-size: 1.2em;
-    font-weight: 900;
-    line-height: 33px;
-}
-
-.categori {
-    border-bottom: 1px solid grey;
-    line-height: 25px;
-}
-
-.about {
-    text-align: justify;
-    padding: 20px;
-}
-
-.sprite {
-    background-image: url(../img/sprite.png);
-    margin-top: 5px;
-    height: 22px;
-    width: 23px;
-    padding-left: 31px;
-    line-height: 25px;
-}
-
-#home {
-    background-position: -1px 0;
-}
-
-#tel {
-    background-position: 239px 0;
-}
-
-#time {
-    background-position: 214px 1px;
-}
-
-#year {
-    background-position: 160px 0;
-}
-
-#site {
-    background-position: 188px 0;
-}
-
 .title {
     font-size: 1.5em;
     font-weight: 600;
     text-transform: uppercase;
     margin: 15px 0;
-}
-
-.right-content {
-    text-align: center;
-}
-
-.right-content a {
-    margin: 5px;
-}
-
-.right-content img {
-    width: 100%;
-}
-
-a {
-    color: #448bb5;
 }
 
 a:hover {
@@ -216,20 +150,14 @@ a:hover {
 
 .address {
     color: #000;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
-.img-circle {
-    width: 150px;
-    height: 150px;
-}
 
-.map {
-    text-align: center;
-    margin-bottom: 25px;
-}
+/*Стилі для підвалу сайту*/
 
 footer {
+
     text-align: center;
     padding: 20px 0;
     max-width: 1440px;
