@@ -1,7 +1,3 @@
-body {
-    min-height: 100vh;
-}
-
 nav .logo a {
     display: flex;
     flex-direction: row;
@@ -16,6 +12,19 @@ nav .logo a {
     display: block;
 }
 
+.cover {
+    background-image: url(../img/bgHeader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 21vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .logo a {
     display: flex;
     flex-direction: row;
@@ -24,16 +33,11 @@ nav .logo a {
 }
 
 nav #menu ul {
-   
     width: 100%;
 }
 
 nav #menu ul li a {
     margin-left: 20px;
-}
-
-header {
-   
 }
 
 .slogan {
@@ -75,7 +79,6 @@ header {
 }
 
 .tabs {
-
     padding: 0px;
     margin: 0 auto;
 }
@@ -176,24 +179,24 @@ header {
     margin: 15px 0;
 }
 
-.right-content a {
-    margin: 5px;
-}
-
 .right-content {
     text-align: center;
+}
+
+.right-content a {
+    margin: 5px;
 }
 
 .right-content img {
     width: 100%;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
 a {
     color: #448bb5;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .thumbnail {
@@ -229,23 +232,6 @@ a {
 footer {
     text-align: center;
     padding: 20px 0;
-    margin-bottom: 50px;
-    height: 100px;
+    max-width: 1440px;
     border-top: 1px solid #c1c1c1;
 }
-
-.cover {
-   background-image: url(../img/bgHeader.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 32vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center; 
-    justify-content: center;
-    max-width: 1440px;
-    margin: 0 auto;
-    
-}
-
-
