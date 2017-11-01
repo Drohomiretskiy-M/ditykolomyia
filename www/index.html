@@ -17,45 +17,7 @@
 </head>
 
 <body>
-<div class="tabs">
-    <ul class="nav nav-tabs">
-        <li class="active"><a href="#tab1" data-toggle="tab">dr1</a></li>
-        <li><a href="#tab2" data-toggle="tab">dr2</a></li>
-        <li><a href="#tab3" data-toggle="tab">dr2</a></li>
-        <li><a href="#tab4" data-toggle="tab">dr2</a></li>
-        <li><a href="#tab5" data-toggle="tab">dr2</a></li>
-    </ul>
-    <div class="tab-content">
-        <div class="tab-pane fad in active" id="tab1">1111111</div>
-        <div class="tab-pane fad in" id="tab2">22222222</div>
-        <div class="tab-pane fad in" id="tab3">3</div>
-        <div class="tab-pane fad in" id="tab4">4</div>
-        <div class="tab-pane fad in" id="tab5">55</div>
-    </div>
-</div>
 
-
-
-
-    <div class="tabs">
-        <ul class="nav nav-tabs">
-            <li class="active"><a href="#tab-all" date-toggle="tab">Всі</a></li>
-            <li><a href="#tab-training" date-toggle="tab">Навчальні</a></li>
-            <li><a href="#tab-sports" date-toggle="tab">Спортивні</a></li>
-            <li><a href="#tab-entertaining" date-toggle="tab">Розважальні</a></li>
-            <li><a href="#tab-for-parents" date-toggle="tab">Для батьків</a></li>
-        </ul>
-
-        <div class="tab-content">
-            <div id="tab-all" class="tab-pane fade in active">
-                <p>11111111111111</p>
-            </div>
-            <div id="tab-training" class="tab-pane fade">222</div>
-            <div id="tab-sports" class="tab-pane fade">33</div>
-            <div id="tab-entertaining" class="tab-pane fade">44</div>
-            <div id="tab-for-parents" class="tab-pane fade">55</div>
-        </div>
-    </div>
 
     <!-- Шапка сайту -->
     <header>
@@ -99,23 +61,17 @@
     <main>
         <div class="container">
             <!-- Таби з категоріями-->
+            
             <div class="tabs">
-                <input id="tab1" type="radio" name="tabs" checked>
-                <label for="tab1" title="Всі">Всі</label>
-
-                <input id="tab2" type="radio" name="tabs">
-                <label for="tab2" title="Навчальні">Навчальні</label>
-
-                <input id="tab3" type="radio" name="tabs">
-                <label for="tab3" title="Спортивні">Спортивні</label>
-
-                <input id="tab4" type="radio" name="tabs">
-                <label for="tab4" title="Розважальні">Розважальні</label>
-
-                <input id="tab5" type="radio" name="tabs">
-                <label for="tab5" title="Для батьків">Для батьків</label>
-
-                <article id="content-tab1">
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#tab-all" data-toggle="tab">Всі</a></li>
+        <li><a href="#tab-training" data-toggle="tab">Навчальні</a></li>
+        <li><a href="#tab-sports" data-toggle="tab">Спортивні</a></li>
+        <li><a href="#tab-entertaining" data-toggle="tab">Розважальні</a></li>
+        <li><a href="#tab-for-parents" data-toggle="tab">Для батьків</a></li>
+    </ul>
+    <div class="tab-content">
+                        <article class="tab-pane fad in active" id="tab-all">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <a href="page-sad-tal.html" class="thumbnail">
@@ -218,19 +174,32 @@
 
                     </div>
                 </article>
-                <article id="content-tab2">
+                <article class="tab-pane fad in" id="tab-training">
                     <h4>Тут будуть відображатися категорія НАВЧАЛЬНІ заклади.</h4>
                 </article>
-                <article id="content-tab3">
+                <article  class="tab-pane fad in" id="tab-sports">
                     <h4>Тут будуть відображатися категорія СПОРТИВНІ заклади.</h4>
                 </article>
-                <article id="content-tab4">
+                <article  class="tab-pane fad in" id="tab-entertaining">
                     <h4>Тут будуть відображатися категорія РОЗВАЖАЛЬНІ заклади.</h4>
                 </article>
-                <article id="content-tab5">
+                <article  class="tab-pane fad in" id="tab-for-parents">
                     <h4>Тут будуть відображатися категорія ДЛЯ БАТЬКІВ заклади.</h4>
                 </article>
-            </div>
+    </div>
+</div>
+            
+            
+            
+            
+            
+            
+            
+            
+        
+
+
+         
         </div>
     </main>
     <!-- Блок з основним контентом-->
