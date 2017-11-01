@@ -38,7 +38,7 @@
         background-color: #60859a;
         color: #fff;
     }
-    .tabs>label {
+    .nav-tabs>li>a {
         font-size: 0.8em;
         padding: 5px 5px;
         font-weight: 400;
@@ -60,7 +60,7 @@
     .logo a:hover {
         text-decoration: none;
     }
-     .tabs>label {
+      .nav-tabs>li>a  {
         font-size: 0.7em;
         padding: 1px;
         font-weight: 200;
