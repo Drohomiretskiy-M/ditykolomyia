@@ -97,26 +97,28 @@ nav #menu ul li a {
 }
 
 .nav-tabs > li > a {
-     margin: 15px 5px;
+    margin: 15px 5px;
     padding: 15px 15px;
     font-size: 1.5em;
     text-align: center;
-
-  border: none;
-
+    border: none;
+    border-radius: 2px;
 }
+
 .nav-tabs > li > a:hover {
-   color: #555555;
-      border-radius: none;
+    color: #555555;
+    border-radius: none;
     background: #05a8e3;
 }
+
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  cursor: default;
-  background-color: #05a8e3;
-  border: none;
-  border-bottom-color: none;
+    cursor: default;
+    background-color: #05a8e3;
+    border: none;
+    border-bottom-color: none;
+    border-radius: 2px;
 }
 
 
