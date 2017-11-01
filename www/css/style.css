@@ -1,10 +1,18 @@
 /*Стилі для меню в шапці*/
 
+@font-face {
+    font-family: Adigiana_Extreme;
+    /* Имя шрифта */
+    src: url(../fonts/Adigiana_Extreme.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
 nav .logo a {
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 60px;
+    font-family: Adigiana_Extreme;
     font-size: 1.75em;
     font-weight: 900;
     color: #448bb5;
@@ -22,6 +30,7 @@ nav #menu ul {
 nav #menu ul li a {
     margin-left: 20px;
 }
+
 
 /*стилі для меню бургер*/
 
@@ -69,12 +78,16 @@ nav #menu ul li a {
     justify-content: center;
     max-width: 1440px;
 }
+
 .slogan {
+    font-family: Adigiana_Extreme;
+    letter-spacing: 5px;
+    text-shadow: 2px 4px 0px #1d1d1d;
     display: flex;
     justify-content: center;
     color: #fff;
     font-weight: 900;
-    font-size: 3em;
+    font-size: 5em;
 }
 
 
@@ -122,7 +135,7 @@ nav #menu ul li a {
     display: block;
 }
 
-.title {
+article h2 {
     font-size: 1.5em;
     font-weight: 600;
     text-transform: uppercase;
@@ -157,7 +170,6 @@ a:hover {
 /*Стилі для підвалу сайту*/
 
 footer {
-
     text-align: center;
     padding: 20px 0;
     max-width: 1440px;
