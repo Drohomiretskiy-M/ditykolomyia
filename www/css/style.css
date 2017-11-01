@@ -92,48 +92,33 @@ nav #menu ul li a {
 
 
 /*Стилі для табів з категоріями*/
-
-.tabs {
-    padding: 0px;
-    margin: 0 auto;
+.nav-tabs {
+    border-bottom: none;
 }
 
-.tabs article {
-    display: none;
-    margin-bottom: 15px;
-}
-
-.tabs input {
-    display: none;
-    position: absolute;
-}
-
-.tabs label {
-    display: inline-block;
-    margin: 15px 0px;
+.nav-tabs > li > a {
+     margin: 15px 5px;
     padding: 15px 15px;
+    font-size: 1.5em;
     text-align: center;
-    color: #aaa;
-    border-radius: 1px;
-}
 
-.tabs label:hover {
-    color: #888;
-    cursor: pointer;
-}
+  border: none;
 
-.tabs input:checked+label {
-    color: #555555;
+}
+.nav-tabs > li > a:hover {
+   color: #555555;
+      border-radius: none;
     background: #05a8e3;
 }
-
-#tab1:checked~#content-tab1,
-#tab2:checked~#content-tab2,
-#tab3:checked~#content-tab3,
-#tab4:checked~#content-tab4,
-#tab5:checked~#content-tab5 {
-    display: block;
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  cursor: default;
+  background-color: #05a8e3;
+  border: none;
+  border-bottom-color: none;
 }
+
 
 article h2 {
     font-size: 1.5em;
