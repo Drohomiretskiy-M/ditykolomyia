@@ -1,1 +1,92 @@
 /*Тут будуть стилі для деталок*/
+
+main {
+	margin-top: 20px;
+	line-height: 1.5;
+}
+
+main h2, main h3 {
+	border-bottom: solid 1px black;
+	line-height: 1;
+	text-transform: uppercase;
+	padding-bottom: 2px; 
+}
+
+main h2 {
+	font-size: 1.8em;
+}
+
+main h3 {
+	font-size: 1.6em;
+}
+
+main h4 {
+	font-size: 1.4em;
+}
+
+main h4.inner {
+	margin: 10px 0;
+}
+
+main h4.outer {
+	margin-bottom: 10px;
+}
+
+main div.information p {
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+main div.information p ul li {
+	list-style: circle outside;
+}
+
+main div img.face {
+	width: auto;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+main .photo img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+main ul.adress {
+	margin-top: 10px;
+}
+
+main ul.adress li:before {
+	background: url(../img/sprite.png) no-repeat;
+	content: "";
+	width: 22px;
+	height: 18px;
+	display: inline-block;
+}
+
+main ul.adress li.addr2:before {
+		background-position: -22px 0;
+}
+
+main ul.adress li.addr3:before {
+		background-position: -64px 0;
+}
+
+main ul.adress li.addr4:before {
+		background-position: -44px 0;
+}
+
+main ul.adress li.addr5:before {
+		background-position: -86px 0;
+}
+
+main ul.adress li.addr6:before {
+		background-position: 20px 0;
+}
+
+main div iframe {
+	width: 100%; 
+	height: 450px; 
+	frameborder: 0; 
+	border: 0;
+}

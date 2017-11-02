@@ -46,7 +46,9 @@
     .map   {
         display: none;
     }
-   
+    main h4.outer {
+    margin: 10px 0;
+    }
 }
 
 
