@@ -96,17 +96,25 @@ nav #menu ul li a {
 .nav-tabs {
     border-bottom: none;
 }
+/*
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .nav-tabs>li>a {
 =======
 .nav-tabs > li > a {
 >>>>>>> b96c0a53bfc187d2c1b72f62bf5fe20ea90d7fb7
+=======
+.nav-tabs>li>a {
+>>>>>>> c0bcb366316156f0a42003481117108d62211be9
     margin: 15px 5px;
     padding: 15px 15px;
     font-size: 1.1em;
     text-align: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c0bcb366316156f0a42003481117108d62211be9
     border-radius: 0 0 0 0;
 }
 
@@ -115,6 +123,7 @@ nav #menu ul li a {
     border-radius: 0 0 0 0;
     background: #05a8e3;
 }
+<<<<<<< HEAD
 =======
     border: none;
     border-radius: 2px;
@@ -136,6 +145,8 @@ nav #menu ul li a {
     border-radius: 2px;
 }
 >>>>>>> b96c0a53bfc187d2c1b72f62bf5fe20ea90d7fb7
+=======
+>>>>>>> c0bcb366316156f0a42003481117108d62211be9
 
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:hover,
@@ -145,6 +156,7 @@ nav #menu ul li a {
     border: none;
     border-bottom-color: none;
 }
+*/
 
 article h2 {
     font-size: 1.5em;
