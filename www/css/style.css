@@ -1,0 +1,188 @@
+/*Стилі для меню в шапці*/
+
+@font-face {
+    font-family: Adigiana_Extreme;
+    /* Имя шрифта */
+    src: url(../fonts/Adigiana_Extreme.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+nav .logo a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    font-family: Adigiana_Extreme;
+    font-size: 1.75em;
+    font-weight: 900;
+    color: #448bb5;
+    justify-content: flex-start;
+}
+
+#menu {
+    display: block;
+}
+
+nav #menu ul {
+    width: 100%;
+}
+
+nav #menu ul li a {
+    margin-left: 20px;
+}
+
+
+/*стилі для меню бургер*/
+
+#toggle {
+    width: 28px;
+    height: 30px;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+#toggle div {
+    height: 5px;
+    background: #87b6d0;
+    margin: 4px auto;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+}
+
+#toggle.on .one {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+#toggle.on .two {
+    opacity: 0;
+}
+
+#toggle.on .three {
+    transform: rotate(-45deg) translate(7px, -8px);
+}
+
+
+/*Стилі для зображення в хедері*/
+
+.cover {
+    background-image: url(../img/bgHeader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 21vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+.slogan {
+    font-family: Adigiana_Extreme;
+    letter-spacing: 5px;
+    text-shadow: 2px 4px 0px #1d1d1d;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 5em;
+}
+
+
+/*Стилі для табів з категоріями*/
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+<<<<<<< HEAD
+.nav-tabs>li>a {
+=======
+.nav-tabs > li > a {
+>>>>>>> b96c0a53bfc187d2c1b72f62bf5fe20ea90d7fb7
+    margin: 15px 5px;
+    padding: 15px 15px;
+    font-size: 1.1em;
+    text-align: center;
+<<<<<<< HEAD
+    border-radius: 0 0 0 0;
+}
+
+.nav-tabs>li>a:hover {
+    color: #555555;
+    border-radius: 0 0 0 0;
+    background: #05a8e3;
+}
+=======
+    border: none;
+    border-radius: 2px;
+}
+
+.nav-tabs > li > a:hover {
+    color: #555555;
+    border-radius: none;
+    background: #05a8e3;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    cursor: default;
+    background-color: #05a8e3;
+    border: none;
+    border-bottom-color: none;
+    border-radius: 2px;
+}
+>>>>>>> b96c0a53bfc187d2c1b72f62bf5fe20ea90d7fb7
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    cursor: default;
+    background-color: #05a8e3;
+    border: none;
+    border-bottom-color: none;
+}
+
+article h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.thumbnail {
+    text-align: center;
+    max-width: 350px;
+    margin: 5px auto;
+}
+
+.thumbnail .category {
+    border-top: 1px solid #e1e1e1;
+    padding: 10px;
+    margin: -4px -4px;
+    background-color: #f6f6f6;
+    color: #000;
+    border-radius: 0 0 5px 5px;
+}
+
+.address {
+    color: #000;
+    padding-bottom: 10px;
+}
+
+
+/*Стилі для підвалу сайту*/
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    max-width: 1440px;
+    border-top: 1px solid #c1c1c1;
+}
