@@ -67,12 +67,14 @@ nav #menu ul li a {
 
 
 /*Стилі для зображення в хедері*/
-
+.container-fluid {
+    padding-right: 0; 
+    padding-left: 0; }
 .cover {
     background-image: url(../img/bgHeader.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 21vw;
+    height: 22vw;
     display: flex;
     flex-direction: row;
     align-items: center;
