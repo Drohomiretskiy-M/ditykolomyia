@@ -1,9 +1,11 @@
-
+/*Підключення шрифту Adigiana_Extreme*/
 
 @font-face {
     font-family: Adigiana_Extreme;
     src: url(../fonts/Adigiana_Extreme.ttf);
 }
+
+
 /*Стилі для меню в шапці*/
 
 nav .logo a {
@@ -91,28 +93,28 @@ nav #menu ul li a {
 
 
 /*Стилі для табів з категоріями*/
-
+.container  {
+    background-color: green;
+}
 .nav-tabs {
     border-bottom: none;
 }
 
-
-.nav-tabs > li > a {
+.nav-tabs>li>a {
     margin: 15px 5px;
     padding: 15px 15px;
     font-size: 1.1em;
     text-align: center;
-    border-radius: 0 0 0 0;
+    border-radius: 3px;
 }
 
 .nav-tabs>li>a:hover {
     color: #555555;
-    border-radius: 0 0 0 0;
+/*    border-radius: 0 0 0 0;*/
     background: #05a8e3;
 }
 
-
-.nav-tabs > li > a:hover {
+.nav-tabs>li>a:hover {
     color: #555555;
     border-radius: none;
     background: #05a8e3;
