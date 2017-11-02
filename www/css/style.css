@@ -93,9 +93,6 @@ nav #menu ul li a {
 
 
 /*Стилі для табів з категоріями*/
-.container  {
-    background-color: green;
-}
 .nav-tabs {
     border-bottom: none;
 }
@@ -110,15 +107,9 @@ nav #menu ul li a {
 
 .nav-tabs>li>a:hover {
     color: #555555;
-/*    border-radius: 0 0 0 0;*/
     background: #05a8e3;
 }
 
-.nav-tabs>li>a:hover {
-    color: #555555;
-    border-radius: none;
-    background: #05a8e3;
-}
 
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:hover,
