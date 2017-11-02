@@ -50,6 +50,12 @@
     main h4.outer {
     margin: 10px 0;
     }
+    main ul.adress {
+    margin: 0;
+}
+    main ul.adress {
+    /* margin-top: 10px; */
+}
 }
 
 
@@ -95,6 +101,9 @@
         height: 110px;
         overflow-x: hidden;
     }
+    
 }
 
-@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 480px) {
+
+}
