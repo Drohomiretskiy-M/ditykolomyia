@@ -119,6 +119,9 @@ nav #menu ul li a {
     border: none;
     border-bottom-color: none;
 }
+.nav-tabs>li a:link {
+    color: #337ab7;
+}
 
 article h2 {
     font-size: 1.5em;
