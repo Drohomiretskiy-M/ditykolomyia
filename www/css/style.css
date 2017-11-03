@@ -23,6 +23,9 @@ nav .logo a {
 #menu {
     display: block;
 }
+#menu li{
+    list-style-type: none;
+}
 
 nav #menu ul {
     width: 100%;
