@@ -37,8 +37,12 @@ main div.information p {
 	text-align: justify;
 }
 
+main div.face {
+	width: 100%;
+	text-align: center;
+}
 
-main div img.face {
+main div.face img {
 	width: auto;
 	max-width: 100%;
 	margin: 0 auto;
@@ -52,6 +56,7 @@ main .photo img{
 main ul.adress {
 	margin-top: 10px;
 }
+
 .adress li{
     list-style-type: none;
 }
@@ -93,9 +98,9 @@ main div iframe {
 /*	frameborder: 0; */
 	border: 0;
 }
+
 .photo img {
     margin: 10px 0;
-    
 }
 
 .listTitle {
