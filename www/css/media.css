@@ -44,9 +44,10 @@
         font-weight: 400;
         margin: 5px 0px;
     }
-    .map {
-        display: none;
+.slogan {
+        font-size: 3em;
     }
+  
     main h4.outer {
     margin: 10px 0;
     }

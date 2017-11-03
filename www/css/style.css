@@ -29,6 +29,7 @@ nav .logo a {
 
 nav #menu ul {
     width: 100%;
+     padding: 0;
 }
 
 nav #menu ul li a {
@@ -152,11 +153,6 @@ a:hover {
     background-color: #f6f6f6;
     color: #000;
     border-radius: 0 0 5px 5px;
-}
-
-.address {
-    color: #000;
-    padding-bottom: 10px;
 }
 
 
